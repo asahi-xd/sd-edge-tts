@@ -1,6 +1,10 @@
 # sd-edge-tts
 Speech dispatcher module that uses Microsoft Edge's TTS service as backend.
 
+By default only english is configured, but you can modify ``./speech-dispatcher/edge-tts-generic.conf`` and add any other language.
+
+Check available languages/voices by running ``edge-tts --list-voices``
+
 ## Dependencies
 
 1. **speech-dispatcher** package installed and properly configured (socket activation enabled, etc).
